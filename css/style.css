@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #212121;
+}
+
 .banner-image {
   background-image: url("/images/1.jpg");
   background-size: cover;
@@ -31,7 +35,7 @@
 
 .section {
   width: 100%;
-  min-height: 75vh;
+  min-height: 85vh;
   background-color: #ddd;
 }
 
@@ -95,6 +99,10 @@
 
 /* Contact Us  */
 
+.form-area {
+  margin-top: 3%;
+}
+
 .row.single-form {
   box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
 }
@@ -146,6 +154,7 @@
 
 /* Footer  */
 footer {
+  margin-top: 3%;
   background: #101010;
   padding: 86px 0;
 }
