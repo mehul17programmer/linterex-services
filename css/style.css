@@ -20,7 +20,7 @@ body {
 
 .main-text {
   position: absolute;
-  top: 30%;
+  top: 40%;
   color: #fff;
   font-size: 2rem;
   left: 10%;
@@ -207,7 +207,7 @@ footer {
 @media screen and (max-width: 768px) {
   .main-text {
     position: absolute;
-    top: 30%;
+    top: 45%;
     color: #fff;
     font-size: 1.5rem;
     left: 10%;
