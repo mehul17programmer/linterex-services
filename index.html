@@ -21,6 +21,9 @@
 
     <!-- CSS Stylesheet  -->
     <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- JavaScript  -->
+    <script defer src="/js/app.js"></script>
   </head>
   <body>
     <!-- Navbar  -->
@@ -62,7 +65,7 @@
 
     <!-- Banner Image  -->
 
-    <p class="main-text">
+    <p class="main-text hidden">
       Provide an overview of the IT services, such as software development,
       cloud computing, network infrastructure, and technical support.
     </p>
@@ -76,23 +79,23 @@
     <!-- Services  -->
 
     <section id="services">
-      <div class="container">
+      <div class="container hidden">
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col-sm mb-5">
             <div class="card h-100 border-dark">
               <img
                 src="/images/cloud security.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="cloud-security img"
               />
               <div class="card-body">
-                <h5 class="card-title">Cloud Security</h5>
-                <p class="card-text">
+                <h5 class="card-title hidden">Cloud Security</h5>
+                <p class="card-text hidden">
                   Cloud security is a collection of procedures and technology
                   designed to address external and internal threats to business
                   security.
                 </p>
-                <a href="#" class="btn btn-primary">Get Service</a>
+                <a href="#" class="btn btn-primary hidden">Get Service</a>
               </div>
             </div>
           </div>
@@ -102,17 +105,17 @@
               <img
                 src="/images/help desk support.png"
                 class="card-img-top"
-                alt="..."
+                alt="help-desk-support img"
               />
               <div class="card-body">
-                <h5 class="card-title">Help Desk Support</h5>
-                <p class="card-text">
+                <h5 class="card-title hidden">Help Desk Support</h5>
+                <p class="card-text hidden">
                   Help desk support refers to the process of providing
                   information and support relating to company information as
                   well as information regarding the products and services of the
                   organization to the end-users/customers.
                 </p>
-                <a href="#" class="btn btn-primary">Get Service</a>
+                <a href="#" class="btn btn-primary hidden">Get Service</a>
               </div>
             </div>
           </div>
@@ -122,17 +125,17 @@
               <img
                 src="/images/it services.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="it services img"
               />
               <div class="card-body">
-                <h5 class="card-title">IT Services</h5>
-                <p class="card-text">
+                <h5 class="card-title hidden">IT Services</h5>
+                <p class="card-text hidden">
                   IT services refers to the application of business and
                   technical expertise to enable organizations in the creation,
                   management and optimization of or access to information and
                   business processes.
                 </p>
-                <a href="#" class="btn btn-primary">Get Service</a>
+                <a href="#" class="btn btn-primary hidden">Get Service</a>
               </div>
             </div>
           </div>
@@ -146,23 +149,25 @@
         <div class="container-aboutus">
           <div class="content-section">
             <div class="title">
-              <h1>About Us</h1>
+              <h1 class="hidden">About Us</h1>
             </div>
             <div class="content">
-              <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
-              <p>
+              <h3 class="hidden">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </h3>
+              <p class="hidden">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Nesciunt ducimus omnis culpa architecto, est deserunt quod
                 magnam quas eveniet facere voluptates voluptate beatae nam?
                 Quaerat.
               </p>
-              <div class="button">
+              <div class="button hidden">
                 <a href="#">Read More</a>
               </div>
             </div>
           </div>
           <div class="image-section">
-            <img src="/images/logo.png" alt="logo..." />
+            <img class="hidden" src="/images/logo.png" alt="logo..." />
           </div>
         </div>
       </div>
@@ -176,7 +181,9 @@
           <div class="row single-form g-0">
             <div class="col-sm-12 col-lg-6">
               <div class="left">
-                <h2><span>Contact Us for</span> <br />IT Services</h2>
+                <h2 class="hidden">
+                  <span>Contact Us for</span> <br />IT Services
+                </h2>
               </div>
             </div>
             <div class="col-sm-12 col-lg-6">
@@ -184,38 +191,40 @@
                 <i class="fa fa-caret-left"></i>
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
+                    <label for="exampleInputEmail1" class="form-label hidden"
                       >Your Name</label
                     >
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control hidden"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
+                    <label for="exampleInputEmail1" class="form-label hidden"
                       >Email address</label
                     >
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control hidden"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"
+                    <label for="exampleInputPassword1" class="form-label hidden"
                       >Message</label
                     >
                     <textarea
                       type="password"
-                      class="form-control"
+                      class="form-control hidden"
                       id="exampleInputPassword1"
                     ></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary hidden">
+                    Submit
+                  </button>
                 </form>
               </div>
             </div>
@@ -231,7 +240,7 @@
           <div class="col-lg-3 col-sm-6">
             <div class="single-box">
               <img src="img/logo.png" alt="" />
-              <p>
+              <p class="hidden">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
                 repellendus sunt praesentium aspernatur iure molestias.
               </p>
@@ -240,28 +249,28 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="single-box">
-              <h2>Menu</h2>
+              <h2 class="hidden">Menu</h2>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li class="hidden"><a href="#">Home</a></li>
+                <li class="hidden"><a href="#">Services</a></li>
+                <li class="hidden"><a href="#">About Us</a></li>
+                <li class="hidden"><a href="#">Contact Us</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="single-box">
-              <h2>Legal Info</h2>
+              <h2 class="hidden">Legal Info</h2>
               <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li class="hidden"><a href="#">Privacy Policy</a></li>
+                <li class="hidden"><a href="#">Terms & Conditions</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="single-box">
-              <h2>Newsletter</h2>
-              <p>
+              <h2 class="hidden">Newsletter</h2>
+              <p class="hidden">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur doloremque earum similique fugiat nobis. Facere?
               </p>
